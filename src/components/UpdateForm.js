@@ -48,7 +48,6 @@ const UpdateForm = ({match}) => {
 
   const updateTaskForm = () => (
     <>
-    <p>{JSON.stringify(values)}</p>
       <form>
         <div className="form-group">
           <label for="task-status">Task status</label>
