@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-light bg-light">
-      <Link to="/" className="navbar-brand mb-0 h1">Task Creator</Link>
+      <Link to="/" className="navbar-brand mb-0 h1 mx-auto">Task Creator</Link>
     </nav>
   );
 };
